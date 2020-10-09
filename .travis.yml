@@ -2,6 +2,6 @@ language: python
 python:
 - 3.8.1
 before_install:
-- pip3 install -r requirements.txt
+- pip install -r requirements.txt
 script:
 - pytest com/kuma/test/
